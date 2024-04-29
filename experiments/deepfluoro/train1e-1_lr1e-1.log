@@ -1,0 +1,76 @@
+  0%|          | 0/100 [00:00<?, ?it/s]Epoch [0/400]:   0%|          | 0/100 [00:03<?, ?it/s]Epoch [0/400]:   0%|          | 0/100 [00:03<?, ?it/s, geodesic_dou=366, geodesic_rot=218, geodesic_se3=282, geodesic_xyz=277, loss=65.8, ncc=-0.00734]Epoch [0/400]:   1%|          | 1/100 [00:03<05:21,  3.25s/it, geodesic_dou=366, geodesic_rot=218, geodesic_se3=282, geodesic_xyz=277, loss=65.8, ncc=-0.00734]Epoch [0/400]:   1%|          | 1/100 [00:03<05:21,  3.25s/it, geodesic_dou=366, geodesic_rot=218, geodesic_se3=282, geodesic_xyz=277, loss=65.8, ncc=-0.00734]Epoch [0/400]:   1%|          | 1/100 [00:03<05:21,  3.25s/it, geodesic_dou=287, geodesic_rot=172, geodesic_se3=227, geodesic_xyz=226, loss=52.3, ncc=0.0799]  Epoch [0/400]:   2%|▏         | 2/100 [00:03<02:38,  1.62s/it, geodesic_dou=287, geodesic_rot=172, geodesic_se3=227, geodesic_xyz=226, loss=52.3, ncc=0.0799]Epoch [0/400]:   2%|▏         | 2/100 [00:04<02:38,  1.62s/it, geodesic_dou=287, geodesic_rot=172, geodesic_se3=227, geodesic_xyz=226, loss=52.3, ncc=0.0799]Epoch [0/400]:   2%|▏         | 2/100 [00:04<02:38,  1.62s/it, geodesic_dou=323, geodesic_rot=155, geodesic_se3=269, geodesic_xyz=268, loss=60.4, ncc=-0.259]Epoch [0/400]:   3%|▎         | 3/100 [00:04<01:46,  1.10s/it, geodesic_dou=323, geodesic_rot=155, geodesic_se3=269, geodesic_xyz=268, loss=60.4, ncc=-0.259]Epoch [0/400]:   3%|▎         | 3/100 [00:04<01:46,  1.10s/it, geodesic_dou=323, geodesic_rot=155, geodesic_se3=269, geodesic_xyz=268, loss=60.4, ncc=-0.259]Epoch [0/400]:   3%|▎         | 3/100 [00:04<01:46,  1.10s/it, geodesic_dou=359, geodesic_rot=290, geodesic_se3=185, geodesic_xyz=184, loss=55.3, ncc=0.143] Epoch [0/400]:   4%|▍         | 4/100 [00:04<01:26,  1.12it/s, geodesic_dou=359, geodesic_rot=290, geodesic_se3=185, geodesic_xyz=184, loss=55.3, ncc=0.143]                                                                                                                                                            sssssssssssssssssssssssssssssss tensor([[ 0.1039,  0.0265,  0.0362],
+        [ 0.3116,  0.0804, -0.0012],
+        [ 0.2869,  0.1469, -0.0058],
+        [ 0.3211,  0.1450,  0.0201]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) tensor([[ 0.0241,  0.3550,  0.4531],
+        [-0.1034,  0.2080,  0.4339],
+        [-0.0985,  0.2145,  0.3904],
+        [-0.1046,  0.2232,  0.4499]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) se3_log_map
+sssssssssssssssssssssssssssssss tensor([[ 0.3774,  0.0915, -0.0054],
+        [ 0.3930,  0.0693, -0.0352],
+        [ 0.3593,  0.1052, -0.0154],
+        [ 0.2701,  0.0885,  0.0027]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) tensor([[-0.1599,  0.2622,  0.3836],
+        [-0.1253,  0.2235,  0.4049],
+        [-0.1426,  0.2276,  0.4005],
+        [-0.0454,  0.2450,  0.3928]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) se3_log_map
+sssssssssssssssssssssssssssssss tensor([[-0.0842,  0.0089,  0.2094],
+        [-0.1356,  0.0096,  0.2059],
+        [-0.0905, -0.0243,  0.1930],
+        [-0.0837, -0.0017,  0.2084]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) tensor([[0.0895, 0.3396, 0.3505],
+        [0.0877, 0.3855, 0.3701],
+        [0.0864, 0.3486, 0.3702],
+        [0.0963, 0.3338, 0.3528]], device='cuda:0', grad_fn=<AddmmBackward0>) se3_log_map
+sssssssssssssssssssssssssssssss tensor([[-0.2093, -0.0723,  0.4379],
+        [-0.1885, -0.0964,  0.4328],
+        [-0.2491, -0.1108,  0.4822],
+        [-0.3103, -0.0416,  0.4118]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) tensor([[-0.0799,  0.3794,  0.4394],
+        [-0.0856,  0.4059,  0.3848],
+        [-0.0626,  0.3149,  0.4550],
+        [-0.0102,  0.3483,  0.3642]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) se3_log_map
+sssssssssssssssssssssssssssssss tensor([[-0.6994, -0.0900,  0.3796],
+        [-0.7557, -0.0668,  0.4517],
+        [-0.9255, -0.1223,  0.5079],
+        [-0.6802, -0.0788,  0.3541]], device='cuda:0',
+       grad_fn=<AddmmBackward0>) tensor([[0.0049, 0.4575, 0.3239],
+        [0.0336, 0.4449, 0.4108],
+        [0.0777, 0.4770, 0.4179],
+        [0.0226, 0.4841, 0.3592]], device='cuda:0', grad_fn=<AddmmBackward0>) se3_log_map
+Traceback (most recent call last):
+  File "/home/data/cyx/autodl-tmp/DiffPose_copy/experiments/deepfluoro/train.py", line 273, in <module>
+    main(id_number)
+  File "/home/data/cyx/autodl-tmp/DiffPose_copy/experiments/deepfluoro/train.py", line 247, in main
+    train(
+  File "/home/data/cyx/autodl-tmp/DiffPose_copy/experiments/deepfluoro/train.py", line 97, in train
+    pred_img = drr(pred_pose)
+               ^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/diffdrr/drr.py", line 137, in forward
+    img = self.renderer(self.density, self.spacing, source, target, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/diffdrr/renderers.py", line 27, in forward
+    voxels = _get_voxel(
+             ^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/diffdrr/renderers.py", line 91, in _get_voxel
+    idxs = _get_index(alpha, source, target, spacing, dims, maxidx, eps)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/cyx/miniconda3/envs/diffpose/lib/python3.12/site-packages/diffdrr/renderers.py", line 102, in _get_index
+    idxs = (
+           ^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.30 GiB. GPU 0 has a total capacty of 23.65 GiB of which 54.69 MiB is free. Process 2908869 has 13.67 GiB memory in use. Including non-PyTorch memory, this process has 9.91 GiB memory in use. Of the allocated memory 7.12 GiB is allocated by PyTorch, and 2.31 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
